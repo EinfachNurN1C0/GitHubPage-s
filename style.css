@@ -1,0 +1,26 @@
+body{
+    background-color: #FFFFFF;
+}
+
+.footer{
+    background-color: #FFFFFF;
+}
+
+.body-title{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    width: 98.5%;
+    position: absolute;
+    bottom: 0;
+}
