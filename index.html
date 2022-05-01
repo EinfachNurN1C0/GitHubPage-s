@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nico-Dev.info</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Loading...
+
+    <!-- Body Titel (Welcome!) -->
+    <div class="body-title">
+        <h1>Welcome!</h1>
+        <h1 id="date"></h1>
+        <script>
+            n =  new Date();
+            y = n.getFullYear();
+            m = n.getMonth() + 1;
+            d = n.getDate();
+            document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+        </script>
+    </div>
 </body>
 </html>

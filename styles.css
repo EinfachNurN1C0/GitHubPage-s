@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+.body-title{
+    color: #ffffff;
+    background-color: #808080;
+}
+
+.date{
+    color: #ffffff;
+    background-color: #808080;
+    z-index: 1000;
+}
