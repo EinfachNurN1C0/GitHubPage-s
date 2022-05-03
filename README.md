@@ -1,4 +1,4 @@
-> # Introducing my Project GitHubPage-s.
+> # Introducing my repository GitHubPage-s.
 
 ![](https://miro.medium.com/max/1400/1*UBPbXxCACLSygvXutPPGSA.jpeg)
 
