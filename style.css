@@ -60,3 +60,80 @@ ul{
 .box li a:hover{
     color: #b9b9b9;
 }
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+html, body {
+    height: 100%
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg2.jpg);
+}
+
+.box2{
+    width: max-width;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+
+.box2-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box2 h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box2 h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box2 p{
+    text-align: justify;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box2 li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box2 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out;
+}
+
+.box2 li a:hover{
+    color: #b9b9b9;
+}
+
+
+}
