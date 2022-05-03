@@ -54,4 +54,9 @@ ul{
     color: white;
     text-decoration: none;
     font-size: 60px;
+    transition: all ease-in-out;
+}
+
+.box li a:hover{
+    color: #b9b9b9;
 }
